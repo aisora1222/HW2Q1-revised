@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/celsiusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/celsiusSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/celsiusValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0°C"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fahrenheitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/fahrenheitSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="212" />
+
+    <TextView
+        android:id="@+id/fahrenheitValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32°F"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/interestingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I wish it were colder."
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
